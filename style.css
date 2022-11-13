@@ -1,0 +1,24 @@
+.btn-default:hover{
+    background-color: rgb(129, 228, 237);
+}
+
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 85px white};
+    to{box-shadow: 1px 1px 85px grey};
+}
+#take_pic{
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+#app {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 5px;
+}
